@@ -11,6 +11,7 @@ Open a browser tab and go on localhost:5000 to make sure you have the app workin
 First, you have to login to Heroku using your credentials `heroku container:login`
 Then, create your app on Heroku using `heroku create` 
 Your app will be created with a name, that we will refer to using [appname]
+You can check your Heroku apps using `heroku apps` to eventually find the name of your app
 
 Then, you have to push and release your app using these :
 `heroku container:push web --app [appname]` to run the container into the heroku repository
